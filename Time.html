@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>UniMetrics | Time Page</title>
+  <!-- Fabicon Insert -->
+  <link rel="icon"   href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Greek_uc_sigma.svg/1200px-Greek_uc_sigma.svg.png">
+	<link rel="stylesheet" href="CS Files/styles.css">
+	<script src="https://kit.fontawesome.com/79d494aa96.js" crossorigin="anonymous"></script>
+</head>
+
+
+<style>
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  
+    input[type=number] {
+      -moz-appearance: textfield;
+    }
+</style>
+  
+<body>
+
+<div class="wrapper">
+    <div class="sidebar">
+        <h2>Unimetrics</h2>
+        <ul>
+            <!-- Home Page -->
+            <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+            <!-- Angle Page -->
+            <li><a href="Angle.html"><i class="fa fa-angle-right"></i> Angle</a></li>
+            <!-- Area  Page -->
+            <li><a href="Area.html"><i class="fa-solid fa-road"></i> Area</a></li>
+            <!-- Energy Page -->
+            <li><a href="Energy.html"><i class="fas fa-atom"></i>Energy</a></li>
+            <!-- Length Page -->
+            <li><a href="Length.html"><i class="fa-solid fa-ruler-combined"></i> Length</a></li>
+            <!-- Mass Page -->
+            <li><a href="Mass.html"><i class="fa fa-balance-scale"></i> Mass</a></li>
+            <!-- Pressure Page -->
+            <li><a href="Pressure.html"><i class="fa-solid fa-wind"></i> Pressure</a></li>
+            <!-- Speed Page -->
+            <li><a href="Speed.html"><i class="fa-solid fa-gauge-high"></i> Speed</a></li>
+            <!-- Temperature Page -->
+            <li><a href="Temperature.html"><i class="fa-solid fa-temperature-high"></i> Temperature</a></li>
+            <!-- Time Page -->
+            <li><a href="Time.html"><i class="fa-regular fa-clock"></i> Time</a></li>
+            <!-- Volume Page -->
+            <li><a href="Volume.html"><i class="fa-solid fa-flask"></i> Volume</a></li>
+            <!-- Contact Page Info Icon -->
+            <li><a href="Contact Us.html"fa-solid fa-square-info> Contact Us</i></a></li>
+            <!-- TCS Page -->
+            <li><a href="Terms&Conditions.html"><i class=""></i> Terms and Conditions</a></li>
+            <!-- About Us Page -->
+            <li><a href="AboutUs.html"><i class=""></i> About Us</a></li>
+        </ul> 
+        <div class="social_media">
+          <!-- Social Links -->
+          <a href=https://www.instagram.com/unimetricconverter/><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UC5jizTeU7omh8pP8dcprzog"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://www.tiktok.com/@unimetricconverter"><i class="fa-brands fa-tiktok"></i></li></a>
+      </div>
+    </div>
+  
+    <div class="main_content">
+      
+      <div class="header">Time Page | UniMetrics - Universal Metric Converter</div>  
+      <div class="info">
+        <h1 class="converter-title"><br/>Time Metric Converter<br/><br/></h1>      
+                
+        <div class = "interaction-box">
+          <input type="number" min="0" step="any" placeholder="Input{60s...}" id="Input" onkeydown="if (event.keyCode === 189 || event.keyCode === 109) {event.preventDefault();}">
+          
+          <span>=</span>
+          
+
+          <input id="Result" type="text" placeholder="Result {1m...}" readonly>
+          
+          <br>
+          
+          <select id="InputType">
+            <option value="Seconds">Seconds (s)</option>
+            <option value="Minute">Minute (min)</option>
+            <option value="Hour">Hours (h)</option>
+            <option value="Day">Day (d)</option>
+          </select>
+
+          <span>=</span>
+                
+          <select id="ResultType">
+            <option value="Seconds">Seconds (s)</option>
+            <option value="Minute">Minute (min)</option>
+            <option value="Hour">Hours (h)</option>
+            <option value="Day">Day (d)</option>
+          </select>
+          <script src="JS Files/timeScript.js"></script>
+        </div>
+
+
+           
+          
+        <br></br>
+        <div>
+          
+          <h1>History of Time metric</h1><br/>
+
+            <p>The concept of time has been studied for millennia, with early civilizations such as the ancient Egyptians and Babylonians developing basic ideas about the measurement and division of time. However, it was not until the 16th century that the modern concept of time began to take shape. In 1582, Pope Gregory XIII introduced the Gregorian calendar, which reformed the Julian calendar and established the current system of leap years to keep the calendar year in sync with the solar year. Today, time is defined as a dimension in which events occur in a sequence and can be measured using a variety of units such as seconds, minutes, hours, days, and years. The study of time is a fundamental part of physics, and it has applications in fields ranging from astronomy to geology to computer science. Over time, scientists have developed more accurate and precise methods for measuring time, such as atomic clocks and GPS satellites. Today, the study of time continues to be a critical area of research and innovation as scientists seek to understand the nature of time itself and develop new technologies that can measure time with increasing accuracy and precision.
+            </p>
+        
+        </div>
+      </div>
+      <!-- TCS -->
+      <div class="footer">
+        <footer>
+            <h2>Unimetrics Terms and Conditions </h2><br />
+            Unimetric's reserve rights to the site, the website maintained by Unimetric Ltd. @2022-2023.<br /><br />Our terms & conditions apply and can be found here!
+
+            We at Unimetric aim to deliver services that excceed expectations, our team here at Unimetric HQ try their best
+            to ensure that the accuracy of the metric calculators & <br />conversions provided correctly.<br /><br />However
+            if you ,as, the USER notice any ERRORS on this please report it via :<br />
+            - Social Links <br />
+            - Filling Contact Form {30s Appx.} <br />
+            - Contact Our <a href="https://backup-project.moahmed9.repl.co/Contact%20Us.html">Supervisor </a>
+          </footer>    
+      </div>
+  
+    </div>
+</div>
+</body>
+</html>
+
+
+
+
